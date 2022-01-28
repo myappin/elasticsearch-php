@@ -9,7 +9,7 @@ use Elasticsearch\Transport;
 use GuzzleHttp\Ring\Future\FutureArrayInterface;
 
 /**
- * Trait AbstractNamespace
+ * Class AbstractNamespace
  *
  * @category Elasticsearch
  * @package  Elasticsearch\Namespaces
@@ -17,7 +17,7 @@ use GuzzleHttp\Ring\Future\FutureArrayInterface;
  * @license  http://www.apache.org/licenses/LICENSE-2.0 Apache2
  * @link     http://elastic.co
  */
-trait BooleanRequestWrapper
+class BooleanRequestWrapper
 {
     /**
      * Perform Request
